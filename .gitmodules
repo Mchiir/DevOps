@@ -1,3 +1,6 @@
 [submodule "JEST/Todo-deployed-app"]
 	path = JEST/Todo-deployed-app
 	url = https://github.com/Mchiir/Todo-deployed-app.git
+[submodule "JUNIT"]
+	path = JUNIT
+	url = https://github.com/Mchiir/devops-demo_course.git
