@@ -4,3 +4,6 @@
 [submodule "devops-demo-course/demo-course"]
 	path = devops-demo-course/demo-course
 	url = https://github.com/Mchiir/devops-demo_course.git
+[submodule "iot/stepper_motor"]
+	path = iot/stepper_motor
+	url = https://github.com/Mchiir/mugisha_chrispin_steppermotor.git
