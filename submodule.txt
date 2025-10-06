@@ -1,0 +1,17 @@
+Adding demo-course submodule
+
+cd F:\GIT-Push\DevOps
+mkdir JUNIT
+cd JUNIT
+git clone https://github.com/mwizerwa77/demo-course.git
+cd JUNIT\demo-course
+git remote add upstream https://github.com/Mchiir/devops-demo_course.git
+
+git pull upstream main
+
+cd F:\GIT-Push\DevOps
+git submodule add -f https://github.com/Mchiir/devops-demo_course.git JUNIT/demo-course
+git add .
+git commit -m "Adding JUNIT demo-course submodule"
+git push origin main
+
